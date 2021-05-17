@@ -1,0 +1,47 @@
+.board {
+    padding-top: 3em;
+    text-align: center;
+  }
+/* 
+  .board:hover{
+    transform:rotate(10000deg);
+    transition: 10s
+  } */
+  
+  .row {
+    margin: 0 auto;
+    clear: both;
+    width: 302px;
+  }
+  
+  .row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+  }
+  
+  .row > div:hover {
+    cursor: pointer;
+    background-color: rgb(132, 207, 182);
+  }
+  
+  .win-text {
+    height: 30px
+  }
+  
+  .top {
+    border-bottom: 1px black solid
+  }
+  
+  .bottom {
+    border-top: 1px black solid
+  }
+  
+  .left {
+    border-right: 1px black solid
+  }
+  
+  .right {
+    border-left: 1px black solid
+  }
